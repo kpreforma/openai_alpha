@@ -1,0 +1,40 @@
+
+/* color palette 
+.color1 {color: #051d26;}
+.color2 {color: #0b3a46;}
+.color3 {color: #135f6f;}
+.color4 {color: #1e8fa0;}
+.color5 {color: #2fcad9;}
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Ubuntu', 'Consolas', Arial, sans-serif;
+    color: #2fcad9;
+    max-width: 1100px;
+    margin: auto;
+    border-top: 0;
+    border-bottom: 0;
+    background-color: #0b3a46;
+}
+
+
+/* header {
+    font-family: 'Courier', 'Roboto', Arial, sans-serif;
+    font-size: small;
+    text-align: right;
+    background-color: #0f1114;
+    padding: 2em 0 0 0;
+    margin: 0 2em 0.3em 0;
+    color: #414e5f;
+    font-weight: bold;
+}
+
+main {
+    margin: auto;
+    background-color: #232931;
+    min-width: 100%;
+    border-radius: 10px;
+    padding: 2rem 0 2rem 0;
+} */
