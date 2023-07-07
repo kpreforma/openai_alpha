@@ -5,12 +5,12 @@
 {% block content %}
     <div class="container">
         <div id="chat-container">
-        <form action="/data" method = "POST">
+        <form action="/" method = "POST">
             <h5>Message Prompt:</h5>
-            <p>
-                <input class="form-control" name="message" type="text" placeholder="Write prompt here" aria-label=".form-control-lg example">
-            </p>
+            <p><input class="form-control" name="message" type="text" placeholder="Write prompt here" aria-label=".form-control-lg example"></p>
             <p><input type="submit" class="btn btn-light" value="Submit" /></p>
         </form>
+        {{ output }}
+        </div>
     </div>
 {% endblock %}
