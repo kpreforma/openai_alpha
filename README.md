@@ -1,4 +1,4 @@
-# Open AI
+# Open AI Web App
 ###### Build: Alpha
 
 This is a personal project that uses the Open AI API with Flask (Py Web Framework).
