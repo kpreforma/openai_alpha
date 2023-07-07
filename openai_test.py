@@ -12,7 +12,11 @@ def openai_response(input_message, system_message):
         "content": system_message
     })
     
-    messages.append({"role":"user","content": input_message})
+    messages.append({
+        "role":"user",
+        "content": input_message})
+
+    print(messages)
 
     response = openai.ChatCompletion.create(
         model = os.environ['OPEN_AI_MODEL'],

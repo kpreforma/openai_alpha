@@ -1,4 +1,16 @@
-<form action="/data" method = "POST">
-    <p>Message Prompt <input type = "text" name = "message" /></p>
-    <p><input type = "submit" value = "Submit" /></p>
-</form>
+{% extends "base.html" %}
+
+{% block title %} GPT Flask App | Chatbot {% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div id="chat-container">
+        <form action="/data" method = "POST">
+            <h5>Message Prompt:</h5>
+            <p>
+                <input class="form-control" name="message" type="text" placeholder="Write prompt here" aria-label=".form-control-lg example">
+            </p>
+            <p><input type="submit" class="btn btn-light" value="Submit" /></p>
+        </form>
+    </div>
+{% endblock %}
